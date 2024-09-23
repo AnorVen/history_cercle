@@ -1,0 +1,24 @@
+.App{
+  background-color: #F4F5F9;
+  .wrapper {
+    max-width: 1440px;
+    border-left: 1px solid #42567A;
+    border-right: 1px solid #42567A;
+    margin: 0 auto;
+    position: relative;
+    height: 100vh;
+    padding: 0 80px;
+    box-sizing: border-box;
+
+
+    &:before {
+      content: ' ';
+      position: absolute;
+      top: 177px;
+      left: 0;
+      width: 5px;
+      height: 120px;
+      background: linear-gradient(rgba(56, 119, 238, 1), rgba(239, 93, 168, 1));
+    }
+  }
+}
